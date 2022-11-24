@@ -1,0 +1,21 @@
+.pnf{
+    height: 50vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pnf .h1{
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgb(181, 181, 181);
+}
+
+
+.pnf a{
+    text-decoration: none;
+    background-color: brown;
+}

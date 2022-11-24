@@ -1,0 +1,110 @@
+header {
+  background-color: rgb(15, 15, 15);
+  padding: 20px 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  /* font-size: 1.3rem; */
+}
+
+nav ul li a:hover {
+  color: #ff2704;
+}
+
+.getInTouch {
+  background-color: #ff2704;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.getInTouch:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+@media only screen and (max-width: 772px) {
+  nav ul {
+    background: linear-gradient(to bottom , #000000, #1b1b1b);
+    position: absolute;
+    width: 70%;
+    top: 95px;
+    right: 0;
+    border-radius: 0 0 0 30px;
+  
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+  
+  }
+  nav ul li:last-child {
+   margin-top: 20px;
+   margin-bottom: 50px;
+  
+  }
+
+  nav ul li a {
+    color: #f2f2f2;
+  }
+
+
+  nav ul li a:hover {
+    color: #ff2704;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon img:hover {
+    opacity: 50%;
+  }
+  #menulist {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .getInTouch {
+    margin-top: 20px;
+  background-color: #ff2704;
+  border-radius:0;
+}
+
+.getInTouch:hover {
+  background-color: #ffffff;
+  color: black;
+  font-weight: 700;
+}
+}
